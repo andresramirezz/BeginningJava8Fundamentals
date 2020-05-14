@@ -12,11 +12,6 @@ public class AccessLevel {
 	protected int v3 = 300; 
 	public int v4 = 400;
 	
-	private void m1() {
-		System.out.println("Inside m1():"); 
-		System.out.println("v1 = "+v1+ ", v2 = "+v2+ ", v3 = "+v3+ ", v4 = "+v4);
-	}
-	
 	void m2() {
 		System.out.println("Inside m2():"); 
 		System.out.println("v1 = "+v1+ ", v2 = "+v2+", v3 = "+v3+ ", v4 = "+v4);
