@@ -18,7 +18,7 @@ public class AccessLevelTest2 {
 		//al.m1(); /* A compile-time error */ 
 		//al.m2(); /* A compile-time error */ 
 		//al.m3(); /* A compile-time error */ 
-		al.m4();
+		al.m4();	
 		
 		/* Modify the values of instance variables */ 
 		//al.v2 = 20; /* A compile-time error */ 
