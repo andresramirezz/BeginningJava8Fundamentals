@@ -11,9 +11,8 @@ public class SmartDog {
     private double price;
     
     public SmartDog() {
-    	//Initialize the name to "Unknown" and the price to 0.0 
-    	this.name = "Unknown";
-    	this.price = 0.0;
+    	// Call another constructor with "Unknown" and 0.0 as parameters 
+    	this("Unknown", 0.0);
 
     	System.out.println("Using SmartDog() constructor");
     }
